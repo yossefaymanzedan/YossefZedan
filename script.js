@@ -57,7 +57,7 @@ $('.nav-link, .btn-ghost').click(function() {
       })
       $(window).scroll(function() {
         var scroll  = $(window).scrollTop();
-        if (scroll >= 2300.1 && scroll <= 5900) {
+        if (scroll >= 2300.1 && scroll <= 1900900) {
             $("#contact1").css("color", "#16c0f0")
         } 
        else {
