@@ -287,3 +287,10 @@ body {
 #home1 {
     color: #16c0f0;
 }
+@media only screen and (max-width: 992px) {
+    .home {
+        background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)) , url(https://i.pinimg.com/originals/e5/c8/03/e5c803a1f390a8bfb5f45abd8a055ba5.jpg);
+        background-size: cover;
+        background-attachment: initial;
+    }
+}
