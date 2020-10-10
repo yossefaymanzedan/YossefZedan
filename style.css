@@ -13,7 +13,7 @@
 .home {
     background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)) , url(https://i.pinimg.com/originals/e5/c8/03/e5c803a1f390a8bfb5f45abd8a055ba5.jpg);
     background-size: cover;
-  
+    background-attachment: fixed;
 }
 .consultant {
     color: #16c0f0;
@@ -73,7 +73,7 @@
     border-radius: 20px;
 }
 .btn:hover {
-    background-color: #16c0f0;
+    background-color: #16c1f0;
     box-shadow: 0px 0px 10px white;
 }
 #twitter {
@@ -102,7 +102,7 @@
 }
 body {
   overflow-x: hidden;
-  overflow-y: auto;
+ 
 }
 @media (min-width: 992px) {
     .navbar-floating {
