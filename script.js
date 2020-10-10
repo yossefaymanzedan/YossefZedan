@@ -1,3 +1,16 @@
+
+
+    /*------------------
+        Preloader
+    --------------------*/
+    $(window).on('load', function () {
+        $(".loader").fadeIn();
+        $("#loader-text").delay(2000).fadeIn();
+        $("#preloder").delay(1500).fadeOut();
+
+    
+    });
+
 $('.nav-link, .btn-ghost').click(function() {
     if (
       location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
