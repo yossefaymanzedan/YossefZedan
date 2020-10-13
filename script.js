@@ -61,7 +61,7 @@ $('.nav-link, .btn-ghost').click(function() {
       })
       $(window).scroll(function() {
         var scroll  = $(window).scrollTop();
-        if (scroll >= 1100.1 && scroll <= 2300) {
+        if (scroll >= 1100.1 && scroll <= 2800) {
             $("#courses1").css("color", "#16c0f0")
         } 
        else {
@@ -70,7 +70,7 @@ $('.nav-link, .btn-ghost').click(function() {
       })
       $(window).scroll(function() {
         var scroll  = $(window).scrollTop();
-        if (scroll >= 2300.1 && scroll <= 1900900) {
+        if (scroll >= 2800.1 && scroll <= 1900900) {
             $("#contact1").css("color", "#16c0f0")
         } 
        else {
