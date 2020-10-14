@@ -45,9 +45,11 @@ $('.nav-link, .btn-ghost').click(function() {
       var scroll  = $(window).scrollTop();
       if (scroll >= 0 && scroll <= 600) {
           $("#home1").css("color", "#16c0f0")
+          $("#comp1").css("color", "#fff")
       } 
      else {
         $("#home1").css("color", "#fff")
+        $("#comp1").css("color", "#fff")
      }
     })
     $(window).scroll(function() {
