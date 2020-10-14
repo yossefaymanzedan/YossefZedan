@@ -19,6 +19,9 @@ letter-spacing: 10px;
     animation: loader3 4s  ;
     -webkit-animation: loader3 4s  ;
 }
+#home1:hover {
+    color: #16c0f0;
+}
 @keyframes loader3 {
     0% {
    opacity: 0;
@@ -29,7 +32,8 @@ opacity: 0;
     35% {
         opacity: 0;
     }
-        40% {
+  
+        50% {
           
  opacity: 1;
        
@@ -45,7 +49,8 @@ opacity: 0;
          35% {
              opacity: 0;
          }
-             40% {
+         
+             50% {
                
       opacity: 1;
             
@@ -236,6 +241,9 @@ opacity: 0;
 .nav-item {
     font-size: 20px;
 }
+.nav-item:hover {
+   color: #16c0f0;
+}
 .btn {
     color: white;
     font-size: 15px;
@@ -262,6 +270,14 @@ opacity: 0;
     margin-bottom: 50px;
    
 }
+.competitions {
+    background-color: #1b1b1b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+
+}
+
 #contact-btn {
     font-size: 15px;
    
