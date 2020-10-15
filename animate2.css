@@ -252,10 +252,6 @@
   animation-direction: reverse;
 }
 
-* {
-  box-sizing: border-box;
-  line-height: calc(1em + 0.25rem);
-}
 
 
 
