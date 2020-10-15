@@ -287,7 +287,7 @@ opacity: 0;
     color: white;
     background-color: transparent;
 }
-body {
+*, html, body {
   overflow-x: hidden;
  
 }
