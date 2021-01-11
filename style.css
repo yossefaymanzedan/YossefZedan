@@ -19,6 +19,11 @@ letter-spacing: 10px;
     animation: loader3 4s  ;
     -webkit-animation: loader3 4s  ;
 }
+.twitter-tweet {
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+}
 #home1:hover {
     color: #16c0f0;
 }
@@ -182,7 +187,7 @@ opacity: 0;
     z-index: 300;
 }
 #home {
-    padding-top: 30vh;
+    padding-top: 40vh;
     height: 800px;
     color: white;
     border-bottom: 5px solid #16c1f067;
