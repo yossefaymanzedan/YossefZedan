@@ -23,7 +23,7 @@ letter-spacing: 10px;
 position: relative;
 left: 50%;
 transform: translateX(-50%);
-}
+} 
 #home1:hover {
     color: #16c0f0;
 }
