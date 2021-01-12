@@ -19,13 +19,12 @@ letter-spacing: 10px;
     animation: loader3 4s  ;
     -webkit-animation: loader3 4s  ;
 }
-.twitter-tweet {
-position: relative;
-left: 50%;
-transform: translateX(-50%);
-} 
+
 #home1:hover {
     color: #16c0f0;
+}
+#celce {
+    font-size: 22px;
 }
 @keyframes loader3 {
     0% {
@@ -256,6 +255,12 @@ opacity: 0;
     border: 2px solid white;
     margin-top: 20px;
     border-radius: 20px;
+}
+
+.twitter-tweet {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .btn:hover {
     color: white;
