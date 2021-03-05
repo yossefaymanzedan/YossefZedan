@@ -11,6 +11,32 @@
     <title>Yossef Zedan</title>
   </head>
   <body>
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary d-none" id="modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Bootstrap 5 from scratch with 8 Projects for $9.99!! </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Use this link to go the the course landing page: 
+        <a target="_blank" href="https://www.udemy.com/course/learn-by-building-bootstrap-5-from-scratch-with-8-projects/?couponCode=6BC5677EC8D5EA70ADCE" class="text-decoration-none">
+          https://www.udemy.com/course/learn-by-building-bootstrap-5-from-scratch-with-8-projects/?couponCode=6BC5677EC8D5EA70ADCE
+        </a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
     <nav class="navbar navbar-expand-lg border-bottom border-3 navbar-float navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Yossef Zedan</a>
@@ -271,7 +297,15 @@ Check our udemy profile
     <script>
         // DISCLAIMER: This function does require jQuery. I've used it here because the project I'm building this for already uses jQuery, so I thought why not. It can be modified quite simply to be done in raw JavaScript.  Just thought I'd let you know.
 
-
+        $(document).ready(function() {
+     
+     
+        
+       
+        $("#modal").click();
+    
+       
+     })
 
 
 // This is the funtion you need to copy
